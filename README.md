@@ -1,6 +1,7 @@
 # Supervised Machine Learning Pipeline & AI Safety Evaluation (Python, scikit-learn & pandas)
 
 **Author:** Egor Zvyagin | Melbourne, VIC  
+**Contact:** `egor.dobryak1@gmail.com`  
 **Profiles:** [LinkedIn](https://linkedin.com/in/egor-zvyagin-843628168) | [GitHub](https://github.com/egor-zvyagin) | [Credly](https://credly.com/users/egor-zvyagin)  
 **Specialisation:** Supervised Machine Learning, Feature Engineering, Model Evaluation, Data Science & AI Safety Governance
 
@@ -102,13 +103,46 @@ The accompanying ethical evaluation addresses critical concerns in the operation
 
 ---
 
+## Python Environment & Setup
+
+Clone the repository and install dependencies in an isolated virtual environment:
+
+```bash
+# Clone the repository
+git clone https://github.com/egor-zvyagin/python-ml-stem-pipeline.git
+cd python-ml-stem-pipeline
+
+# Create and activate Python virtual environment
+python3 -m venv .venv
+source .venv/bin/activate
+
+# Install required dependencies
+pip install -r requirements.txt
+```
+
+### Dependencies (`requirements.txt`)
+* `scikit-learn>=1.3.0` — Core machine learning models, cross-validation, and metrics
+* `pandas>=2.0.0` — High-performance tabular data structures and preprocessing
+* `numpy>=1.24.0` — Numerical vector and matrix computation
+* `matplotlib>=3.7.0` — Data visualization, confusion matrices, and ROC curves
+* `seaborn>=0.12.0` — Statistical distribution plotting and correlation heatmaps
+* `scipy>=1.10.0` — Advanced scientific and statistical subroutines
+* `joblib>=1.3.0` — Pipeline persistence and parallelized grid search
+
+---
+
 ## Included Deliverables
 
 * [`Supervised_Machine_Learning_Pipeline_Report.pdf`](./Supervised_Machine_Learning_Pipeline_Report.pdf): Complete technical report documenting the data preprocessing pipeline, algorithm benchmarking, hyperparameter grid search, and ROC/F1 evaluation curves.
 * [`AI_Safety_Governance_and_Ethics_Evaluation.pdf`](./AI_Safety_Governance_and_Ethics_Evaluation.pdf): Detailed ethics and safety governance evaluation, addressing algorithmic fairness, transparency, privacy compliance, and human oversight frameworks.
+* [`requirements.txt`](./requirements.txt): Pinned Python package dependencies for exact environment reproducibility.
 
 ---
 
-## Licensing & Operational Use
+## Professional Reference & Contact
 
-Authored and maintained by Egor Zvyagin for professional portfolio demonstration, machine learning engineering reference, and technical interview discussions.
+Authored and maintained by **Egor Zvyagin**  
+- **Email:** `egor.dobryak1@gmail.com`  
+- **LinkedIn:** [linkedin.com/in/egor-zvyagin-843628168](https://linkedin.com/in/egor-zvyagin-843628168)  
+- **GitHub:** [github.com/egor-zvyagin](https://github.com/egor-zvyagin)  
+- **Credly:** [credly.com/users/egor-zvyagin](https://credly.com/users/egor-zvyagin)
